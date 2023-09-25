@@ -1,0 +1,22 @@
+.catalog {
+  padding: 1rem;
+  &__header {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0 0 2rem 0;
+  }
+  &__products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 625px) {
+  .catalog {
+    &__products {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 2.5rem;
+    }
+  }
+}
