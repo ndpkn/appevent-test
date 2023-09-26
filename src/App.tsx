@@ -21,11 +21,11 @@ function App() {
   return (
     <>
     <Header/>
-      <Routes>
-        <Route path='/' element={<Catalog products={productList}/>}/>
-        <Route path='catalog' element={<Catalog products={productList}/>}/>
-        <Route path='cart' element={<Cart/>}/>
-      </Routes>
+    <Routes>
+      <Route path='/' element={<Catalog products={productList}/>}/>
+      <Route path='catalog' element={<Catalog products={productList}/>}/>
+      <Route path='cart' element={<Cart/>}/>
+    </Routes>
     </>
   )
 }
