@@ -14,8 +14,8 @@ const Cart = () => {
 		dispatch(removeFromCart(item))
 		dispatch(countTotal())
 	}
-	
-  return (
+
+	return (
 		<div className={styles.cart}>
 			{cartList.length ? (
 				<>
@@ -50,10 +50,15 @@ const Cart = () => {
 					</p>
 				</>
 			) : (
-				<h2 className={styles.cart__header} style={{textAlign: 'center'}}>Корзина пуста</h2>
+				<h2
+					className={styles.cart__header}
+					style={{ textAlign: 'center' }}
+				>
+					Корзина пуста
+				</h2>
 			)}
 		</div>
-  )
+	)
 }
 
 export default Cart

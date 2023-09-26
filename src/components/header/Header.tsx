@@ -8,7 +8,7 @@ import { RootState } from '../../store/store'
 const Header = () => {
 	const cartList = useSelector((state: RootState) => state.cart.cartItems)
 
-  return (
+	return (
 		<header className={styles.header}>
 			<div className={styles.header__logo}>
 				<Link to='/'>
@@ -27,7 +27,7 @@ const Header = () => {
 				</Link>
 			</div>
 		</header>
-  )
+	)
 }
 
 export default Header

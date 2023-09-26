@@ -3,22 +3,22 @@ export interface CartItem {
   price: number,
   id: number
 }
+
 export interface CartItems {
   cartItems: CartItem[]
   total: number
 }
 
-export interface ProductType  {
+export interface ProductType {
   name: string
   price: number
   image: string
   id: number
 }
 
-export interface CatalogProps  {
+export interface CatalogProps {
   products: ProductType[]
 }
-
 
 export interface ProductInfo {
   name: string
@@ -26,6 +26,7 @@ export interface ProductInfo {
   image?: string
   id: number
 }
+
 export interface ProductProps {
   name: string
   price: number

@@ -4,7 +4,7 @@ import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart'
 import { addToCart, countTotal } from '../../store/cart/cartSlice'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-import {  ProductInfo, ProductProps } from '../../types'
+import { ProductInfo, ProductProps } from '../../types'
 
 const Product = ({
 	name,

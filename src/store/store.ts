@@ -1,8 +1,8 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
 import cartReducer from './cart/cartSlice'
 import {
-  persistStore, 
-  persistReducer, 
+  persistStore,
+  persistReducer,
   FLUSH,
   REHYDRATE,
   PAUSE,
